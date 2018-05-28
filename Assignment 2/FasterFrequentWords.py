@@ -48,9 +48,6 @@ def NumberToPattern (index, k):
         
     return PrefixPattern
 
-#SymbolToNumber, NumberToSymbol, PatternToNumber and NumberToPattern are 
-#implemented as in Exercise 2, 3
-
 def ComputingFrequencies(Text,k):
     FrequencyArray = [0]*4**k 
     for i in range(0, len(Text)-k+1):
